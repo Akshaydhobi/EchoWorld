@@ -1,0 +1,52 @@
+{
+  "id": "echo-city",
+  "name": "ECHO CITY",
+  "tagline": "A society that evolves without a script.",
+  "description": "A modern, interconnected civilization designed for controlled social simulation.",
+  "tick": 0,
+  "simulationStatus": "not-started",
+  "speedMultiplier": 1,
+  "lastError": null,
+  "lastTickMetrics": null,
+  "seed": 2026,
+  "resources": [
+    { "id": "food", "name": "Food", "unit": "units" },
+    { "id": "money", "name": "Credits", "unit": "credits" },
+    { "id": "energy", "name": "Energy", "unit": "units" },
+    { "id": "materials", "name": "Materials", "unit": "units" },
+    { "id": "knowledge", "name": "Knowledge", "unit": "points" },
+    { "id": "healthcare", "name": "Healthcare", "unit": "services" }
+  ],
+  "communities": [
+    {
+      "id": "greenfield",
+      "name": "Greenfield",
+      "type": "Residential & agriculture",
+      "description": "A leafy community built around homes, farms, and shared green spaces.",
+      "accent": "emerald",
+      "mapPosition": { "x": 17, "y": 45 },
+      "targetPopulation": 10,
+      "facilities": ["Residences", "Farms", "Market", "Hospital", "School", "Parks"]
+    },
+    {
+      "id": "metrocore",
+      "name": "MetroCore",
+      "type": "Business & commerce",
+      "description": "The city's commercial heart, connecting local businesses and trade.",
+      "accent": "cyan",
+      "mapPosition": { "x": 50, "y": 24 },
+      "targetPopulation": 10,
+      "facilities": ["Residences", "Business centres", "Markets", "Hospital", "School", "Transit"]
+    },
+    {
+      "id": "novadistrict",
+      "name": "NovaDistrict",
+      "type": "Technology & research",
+      "description": "A research district for laboratories, engineering, and new ideas.",
+      "accent": "violet",
+      "mapPosition": { "x": 71, "y": 62 },
+      "targetPopulation": 10,
+      "facilities": ["Residences", "Research labs", "Energy facilities", "School", "Transit", "Parks"]
+    }
+  ]
+}
